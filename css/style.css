@@ -65,6 +65,24 @@ button:hover {
     transition: opacity 0.5s, transform 0.5s;
 }
 
+
+
+.custom-datetime {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline-color: #2980b9;
+    font-size: 14px;
+}
+
+
+.custom-datetime:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
 label {
     display: block;
     margin: 10px 0 5px;
